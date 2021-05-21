@@ -8,7 +8,7 @@ nextjs를 학습하는 이유는 node로 구축되어있는 webrtc를 react로 �
 방법의 실마리를 얻고자 하는 것이다.
 
 BUT 학습하면 할 수록 Backend는 따로 구축 해야할 필요를 느낌
-nextjs는 SSR과 CCR 관점에서 frontend 구축 framework 인것 같다.
+nextjs는 SSR과 CSR 관점에서 frontend 구축 framework 인것 같다.
 
 youtube의 코딩앙마 강의를 학습한 내용이다.
 https://www.youtube.com/channel/UCxft4RZ8lrK_BdPNz8NOP7Q
