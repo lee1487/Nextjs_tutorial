@@ -2,8 +2,19 @@ import { useRouter } from "next/router";
 import { Button, Form } from "semantic-ui-react";
 
 import React from "react";
+import axios from "axios";
 
-const login = () => {
+const Login = () => {
+  const router = useRouter();
+  function login() {
+    axios.post("/api/login").then((res) => {
+      if (res.status === 200) {
+        // 로그인 성공
+        router.push("/admin");
+      }
+    });
+  }
+
   return (
     <div style={{ padding: "100px 0", textAlign: "center" }}>
       <Form>
@@ -21,4 +32,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default Login;
